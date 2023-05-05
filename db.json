@@ -1,0 +1,61 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "fname": "fghghfg",
+      "email": "fghfgh",
+      "pwd": "123",
+      "cpwd": "123",
+      "id": 2
+    },
+    {
+      "fname": "fghghfg",
+      "email": "fghfgh",
+      "pwd": "123",
+      "cpwd": "123",
+      "id": 3
+    },
+    {
+      "fname": "ghjgj",
+      "email": "ghjghjgh",
+      "pwd": "hjghjghj",
+      "cpwd": "hdghd",
+      "id": 4
+    },
+    {
+      "fname": "fhfghg",
+      "email": "ffghd",
+      "pwd": "fghfghfg",
+      "cpwd": "fghfghfgh",
+      "id": 5
+    },
+    {
+      "fname": "fhfghg",
+      "email": "ffghd",
+      "pwd": "fghfghfg",
+      "cpwd": "fghfghfgh",
+      "id": 6
+    },
+    {
+      "fname": "ty",
+      "email": "rtyrty",
+      "pwd": "123",
+      "cpwd": "123",
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
