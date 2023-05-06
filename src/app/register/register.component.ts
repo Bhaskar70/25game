@@ -23,7 +23,6 @@ export class RegisterComponent {
   }
   submitForm() {
     if (this.registerForm.status == 'VALID') {
-      this.common.postData(this.registerForm.value).subscribe()
       this.router.navigate(['/productList'])
     }
     console.log(this.registerForm, "21:::")
