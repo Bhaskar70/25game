@@ -1,0 +1,9 @@
+<select name='hall' id="hall" [(ngModel)]="demision" (change)="changeEvent()">
+    <option value="none" selected disabled hidden>Select an Option</option>
+    <option value="4*4" selected>4*4</option>
+    <option value="5*5">5*5</option>
+    <option value="6*6">6*6</option>
+</select>
+<div [style]="gridStyle(itemCount)">
+    <div *ngFor="let box of arr" class="box-item"></div>
+</div>

@@ -10,13 +10,17 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { FormsModule ,ReactiveFormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http'
 import { CommonService } from './common.service';
+import { HomeComponent } from './game/home/home.component';
+import { HeaderComponent } from './game/header/header.component';
 @NgModule({ 
   declarations: [
     AppComponent,
     LoginComponent,
     RegisterComponent,
     ProductListComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    HomeComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
